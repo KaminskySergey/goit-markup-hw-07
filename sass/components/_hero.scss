@@ -1,0 +1,47 @@
+.hero{
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: $brand-fon;
+    text-align: center;
+    
+     &__title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: $brand-white;
+        margin-bottom: 30px;
+        width: 696px;
+        margin:0 auto;
+    }
+
+}
+
+.hero__overlane{
+    
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+    url("../images/backgraund/ImgBg.jpg");
+    width: 1600px;
+    min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.hero__btn {
+    @extend %btn; 
+    padding: 10px 32px;
+}
+.hero__btn{
+    &:hover, &:focus{
+        background-color: $brand-btn;
+        }
+        &:active{
+            background-color: $brand-btn;
+            }
+}
