@@ -1,0 +1,53 @@
+
+.work{
+    display: flex;
+    padding-bottom: 94px;
+    
+    
+    
+}
+.work__title{
+    margin-bottom: 50px;
+}
+
+
+/////////////// list/////////////////////
+
+.work__list{
+    display: flex;
+    margin-right: -30px;
+    
+}
+.work__item {
+    margin-right: 30px;
+}
+
+/////////////////// whumb ///////////////
+.work__thumb{
+    position: relative;
+}
+.work__text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $brand-black-studio;
+    background: rgba(47, 48, 58, 0.8);
+
+}
+
+.work__text--title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $brand-white;
+  }
