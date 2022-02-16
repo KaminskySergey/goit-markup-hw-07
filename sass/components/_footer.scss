@@ -159,7 +159,7 @@ letter-spacing: 0.03em;
 }
 
 .footer-btn{
-    @extend %btn;
+    
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
